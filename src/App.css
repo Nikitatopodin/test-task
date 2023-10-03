@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+}
+
+.sort {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sort span,
+.filters span {
+  margin: 1vh;
+  font-weight: 700;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.price-filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.flights-list {
+  margin-left: 15vw;
+  text-align: center;
+}
+
+.flight-info-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+li {
+  list-style: none;
+}
